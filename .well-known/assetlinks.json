@@ -1,0 +1,9 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.zelcash.zelcore",
+    "sha256_cert_fingerprints":
+    ["BE:D6:69:F1:0C:3D:12:9F:B7:2C:C5:EC:34:71:1C:5E:05:64:8D:18:9A:6B:94:9B:C0:37:D7:CA:FE:69:63:77"]
+  }
+}]
