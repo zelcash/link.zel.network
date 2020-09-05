@@ -6,7 +6,7 @@
         "appID": "TD7JHAFH65.com.zelcash.zelcore",
         "paths": [ 
           "/*"
-        ]
+        ],
         "components": [
           {
             "/": "/*"
