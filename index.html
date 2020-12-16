@@ -289,6 +289,9 @@
       function openZelCore() {
         document.getElementById("openzelcore").href = page;
       }
+      if (window.location.search) {
+        window.location.replace(page);
+      }
     </script>
   </body>
 </html>
