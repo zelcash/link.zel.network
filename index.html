@@ -137,7 +137,7 @@
                       class="uk-card uk-card-hover uk-card-secondary uk-card-body"
                     >
                       <a
-                        href="https://zelcore.io/downloads/zelcore350.apk"
+                        href="https://zelcore.io/downloads/zelcore.apk"
                         target="_blank"
                         rel="noopener noreferrer"
                         class="android"
@@ -289,8 +289,10 @@
       function openZelCore() {
         document.getElementById("openzelcore").href = page;
       }
+      console.log(window.location.search);
+      console.log(window.location.pathname);
       if (window.location.search) {
-        window.location.replace(page);
+        window.location.href = page;
       }
     </script>
   </body>
